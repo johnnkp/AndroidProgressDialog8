@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The set of attributes that describe a AlertDialog's theme. -->
+    <declare-styleable name="AlertDialog">
+        <attr name="fullDark" format="reference|color" />
+        <attr name="topDark" format="reference|color" />
+        <attr name="centerDark" format="reference|color" />
+        <attr name="bottomDark" format="reference|color" />
+        <attr name="fullBright" format="reference|color" />
+        <attr name="topBright" format="reference|color" />
+        <attr name="centerBright" format="reference|color" />
+        <attr name="bottomBright" format="reference|color" />
+        <attr name="bottomMedium" format="reference|color" />
+        <attr name="centerMedium" format="reference|color" />
+        <attr name="layout" />
+        <attr name="buttonPanelSideLayout" format="reference" />
+        <attr name="listLayout" format="reference" />
+        <attr name="multiChoiceItemLayout" format="reference" />
+        <attr name="singleChoiceItemLayout" format="reference" />
+        <attr name="listItemLayout" format="reference" />
+        <attr name="progressLayout" format="reference" />
+        <attr name="horizontalProgressLayout" format="reference" />
+        <!-- @hide Not ready for public use. -->
+        <attr name="showTitle" format="boolean" />
+        <!-- @hide Whether fullDark, etc. should use default values if null. -->
+        <attr name="needsDefaultBackgrounds" format="boolean" />
+        <!-- @hide Workaround until we replace AlertController with custom layout. -->
+        <attr name="controllerType">
+            <!-- The default controller. -->
+            <enum name="normal" value="0" />
+            <!-- Controller for micro specific layout. -->
+            <enum name="micro" value="1" />
+        </attr>
+        <!-- @hide Offset when scrolling to a selection. -->
+        <attr name="selectionScrollOffset" format="dimension" />
+    </declare-styleable>
+
+        <!-- Default ProgressBar style. This is a medium circular progress bar. -->
+        <attr name="progressBarStyle" format="reference" />
+        <!-- Horizontal ProgressBar style. This is a horizontal progress bar. -->
+        <attr name="progressBarStyleHorizontal" format="reference" />
+        <!-- Small ProgressBar style. This is a small circular progress bar. -->
+        <attr name="progressBarStyleSmall" format="reference" />
+        <!-- Small ProgressBar in title style. This is a small circular progress bar that will be placed in title bars. -->
+        <attr name="progressBarStyleSmallTitle" format="reference" />
+        <!-- Large ProgressBar style. This is a large circular progress bar. -->
+        <attr name="progressBarStyleLarge" format="reference" />
+        <!-- Inverse ProgressBar style. This is a medium circular progress bar. -->
+        <attr name="progressBarStyleInverse" format="reference" />
+        <!-- Small inverse ProgressBar style. This is a small circular progress bar. -->
+        <attr name="progressBarStyleSmallInverse" format="reference" />
+        <!-- Large inverse ProgressBar style. This is a large circular progress bar. -->
+        <attr name="progressBarStyleLargeInverse" format="reference" />
+</resources>
